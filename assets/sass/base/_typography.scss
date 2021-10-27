@@ -31,7 +31,7 @@
 			'color #{_duration(transition)} ease',
 			'border-bottom-color #{_duration(transition)} ease'
 		));
-		border-bottom: dotted 3px _palette(fg-light);
+		border-bottom: dotted 6px _palette(fg-light);
 		color: inherit;
 
 		&:hover {
