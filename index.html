@@ -1,336 +1,799 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Tasha N. Gill</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Tasha Gill, Data Analyst specializing in data cleaning, analysis, visualization, and actionable insights.">
+    <title>Tasha Gill - Data Analyst Portfolio</title>
+    <style>
+:root {
+    --bg-primary: #0f0f0f;
+    --bg-secondary: rgba(96, 165, 250, 0.06); /* very subtle blue tint */
+    --text-primary: #f0f0f0;
+    --text-secondary: #cccccc;
+    --accent: #60a5fa; /* primary blue – h2 titles */
+    --secondary-accent: #8ab4ff; /* softer blue for subheadings (h3/h4) */
+    --accent-hover: #3b82f6;
+    --accent-glow: rgba(96, 165, 250, 0.3);
+    --link-bg: rgba(96, 165, 250, 0.15);
+    --link-hover-bg: rgba(96, 165, 250, 0.3);
+    --border: #333333;
+    --shadow: rgba(0, 0, 0, 0.6);
+}
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Certifications</a></li>
-							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Contact</a></li>
-							<li><a href="blog.html">Blog</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+header {
+    background-color: var(--bg-secondary);
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 1px solid var(--border);
+}
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Hey, there!</h1>
-							<p>Thanks for taking a moment to visit, and see what I've been working on. This site is currently under construction, however the contact details should remain the same. Please reach out or revisit at a later time should you happen to have any questions, or need further details on something you see here. </p>
-						</div>
-					</section>
+header a {
+    transition: all 0.3s ease;
+}
 
-				<!-- One -->
-					<section class="wrapper style2 spotlights">
-						<section>
-							<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a> -->
-							<div class="content">
-								<div class="inner">
-									<h2>What does this page contain?</h2>
-									<p>This site serves as a portfolio of work so far, the steps I've taken to work on those projects, and a timeline of my efforts in Data Analysis and FrontEnd Web Development <br><br>
-									<strike>I plan on adding in a blog that details learning and work starting in November.</strike><br>
-									The blog has been started! You can find the link in the navigation bar to the left on the desktop. If you happen to be on mobile, here's the link: <a href="blog.html">Blog</a>.</p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<!-- <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a> -->
-							<div class="content">
-								<div class="inner">
-									<h2>The Journey so far</h2>
-									<p>I originally began the Google Data Analytics Certificate in June 2021, after learning about it from a creator on TikTok. I found myself finishing the six month program within a month, while working full time. I learned a lot about how data is gathered, organized, and then analyzed for insights. I was really excited to jump into a new field and use the skills learned from the course in a new career. <br><br>
-									However, I was not fully prepared for the job search to gain an entry level role in Data Analytics. I spent about two months getting more certificates and skills under my belt, but was unsure if I was ready for employment, considering I had not heard back from the applications that I had sent out. I then decided to take some time for learning FrontEnd Web Development as an alternate route into a career in Tech.<br><br>
-									In October, I found that another creator on TikTok advertised for the Merit America program, which offered BootCamp like learning with payment only being required after getting employed at a certain salary range. I looked into the organization, found it offers not only intense learning and training, but strong career coaching, and that they were offering a program in Data Analysis. I signed up, excited to start right away, considering I had spent about a month on my other efforts in Web Development. It took some time for the response, since they had gotten a lot of inquiries from the TikTok advertisement, but I was accepted! <br>
-									<br>When I was accepted, I found I was in the January program instead. I missed the deadline for the pre-work to be done for the October class. Thankfully, they made an exception for my case once I reached out, and allowed me the opportunity to get the pre-work done before the October cohort began. I spent a day fully involved in the EdX course and completed the Data Science: R Basics material, earning a certificate from DataCamp on the course as well.<br><br>
-									With that certification complete, as of October 18th, 2021, I am currently enrolled in the first cohort of the Data Analytics program offered by Merit America.</p>
-								</div>
-							</div>
-						</section>
-						<section id="one">
-							<!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a> -->
-							<div class="content">
-								<div class="inner">
-									<h2>What I've worked on since July 2021:</h2>
-									<p>
-										<ul>
-											<li> July 2021: <a href="https://coursera.org/share/3d593c8760870ac86460159002a13487"> Google Data Analytics Certificate of Completion </a> </li>
-												<div>
-												Cultivated skills in the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.<br>
-												Completed hands-on labs and a capstone project (case study) to master the art and science of asking questions, preparing, processing, analyzing, visualizing, and acting on data as encountered in real-world scenarios.<br><br>
-												</div>
-												<hr>
-											<li> August 2021: <a href="https://coursera.org/share/168da32b6180c59e239a21b9cf1af166"> UC Davis SQL for Data Science Certificate of Completion </a> </li>
-												<div>
-												Completed applied coursework on how to Use SQL commands to filter, sort, and summarize data, Manipulate strings, dates, & numeric data using functions to integrate data from different sources into fields with the correct format for analysis, and Create an analysis table from multiple queries using the UNION operator.<br><br>
-												</div>
-												<hr>
-											<li> August 2021: <a href="https://www.kaggle.com/learn/certification/tgill1085/python"> Kaggle Python for Data Science Certificate of Completion </a> </li>
-												<hr>
-											<li> August 2021: <a href="https://www.kaggle.com/learn/certification/tgill1085/intro-to-machine-learning"> Kaggle Intro to Machine Learning Certificate of Completion </a> </li>
-												<div>
-												Completed direct coursework gaining knowledge and skills in building Machine Learning Models, Model Validation, Underfitting & Overfitting, and Random Forests.<br><br>
-												</div>
-												<hr>
-											<li> August 2021: <a href="https://www.kaggle.com/learn/certification/tgill1085/intermediate-machine-learning"> Kaggle Intermediate Machine Learning Certificate of Completion </a> </li>
-												<hr>
-											<li> September 2021: <a href="https://www.freecodecamp.org/certification/tgill1085/data-analysis-with-python-v7"> FreeCodeCamp Data Analysis with Python Certificate of Completion </a> </li>
-												<div>
-												Completed hands-on coursework covering how to read data from sources like CSVs and SQL, and how to use libraries like Numpy, Pandas, Matplotlib, and Seaborn to process and visualize data.<br><br>
-												</div>
-												<hr>
-											<li> October 2021: <a href="https://www.datacamp.com/statement-of-accomplishment/course/c6a9aa6618d933532fa7529ef2bad48783b8ef89"> DataCamp Data Science with R Basics Statement of Accomplishment </a> </li>
-												<div>
-												Completed interactive coursework reinforcing knowledge and skills on R, including R's functions, data types, and vectors. Advanced functions such as sorting, how to wrangle, analyze and visualize data, and how to use general programming features like 'if-else', and 'for loop' commands to write functions to perform various operations on datasets.<br><br>
-												</div>
-												<hr>
-											<li> October 2021: (ON HOLD - 50-60% complete on each course) FreeCodeCamp Responsive Web Design course, the JavaScript Algorithms and Data Structures course, and Colt Steele's Web Developer BootCamp on Udemy. However this will take a backseat to the ongoing Merit America Data Analysis program, and I'll work on them after the program has been completed.
-									</p>
-								</div>
-							</div>
-						</section>
-					</section>
+header a:hover {
+    color: #ffffff !important;
+    background: var(--link-hover-bg);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-glow);
+}
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>PROJECTS</h2>
-							<p>Here are the projects that I worked on since July 2021:</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>OnyxData #Datadna December Challenge - Billboard's Top 100 Christmas Songs 1958 - 2017 - December 2021</h3>
-									<img src="images/Viz.png" width="800" height="500"><br>
-									<p>Following the previous project, I've joined in on the Onyx Data #datadna December Challenge, where participants were asked to analyze the Billboard Top 100 Christmas Carol Dataset, and try to answer which Christmas Song was the greatest.<br><br>
+h1 { margin: 0; font-size: 3em; letter-spacing: 1px; }
 
-									To learn more about this challenge, please visit Onyx Data's website here:<br>
-										<a href="https://onyxdata.co.uk/december-2021/">OnyxData #Datadna December Challenge</a><br><br>
+h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    position: relative;
+    color: var(--accent);
+    background: linear-gradient(to right, var(--accent), var(--accent-hover));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+}
 
-									To see the full viz please visit the following link:<br>
-									<a href="https://public.tableau.com/views/OnyxChristmassongsProject/Viz?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link">Onyx December Challenge Viz</a><br><br>
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--accent), var(--accent-hover));
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
 
-									If you happen to check out the full Viz, do be sure to toggle over to the fire-side!</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>DataXP.AI - Airbnb Project - December 2021</h3>
-									<img src="images/MarketEx.png" width="800" height="500"><br>
-									<p>
-										Recently, Dataxp.ai provided a project idea to work on, to display our analysis and visualization skills. This was not a guided project, but did include some foundations that we were to keep in mind:<br><br>
+h2:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 4px 15px var(--accent-glow);
+}
 
-										Using the open source Airbnb dataset, build a dashboard to help property owners and investors understand the Airbnb property market. Describe the Airbnb property market by showing the number of properties with specific property attributes.<br><br>
+h2:hover::after {
+    opacity: 1;
+}
 
-										In this project I used Python and the following libraries: NumPy, Pandas, DataPrep, and NLTK, along with Tableau to answer the following questions:<br><br>
+/* Subheadings: short vertical line marker only – no extension */
+h3, h4 {
+    color: var(--secondary-accent);
+    font-weight: 600;
+    margin: 2em 0 1em 0;
+    position: relative;
+    padding-left: 20px;
+}
 
-										How can we help property owners and investors get a high-level overview of the property market? What is the average rental price for apartments in your chosen city? What number of bedrooms is the most common? What proportion of Airbnb rentals have a swimming pool, air-conditioning, washing machine, etc?<br><br>
+h3 { font-size: 1.8em; }
 
-										The full dashboard can be viewed here:<br>
-										<a href="https://public.tableau.com/shared/36B39R2HB?:display_count=n&:origin=viz_share_link">Tableau Public Viz</a>
-																	
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>London Bus Safety - Tableau - November 2021</h3>
-									<img src="images/london.png" width="800" height="500"><br>
-									<p>
-										Another project provided by the Coursera Tableau course, where the learners were guided to create a dashboard that includes filters and visuals based on which bourough was selected. Not super flashy, but nice and functional!<br><br>
-										<a href="https://public.tableau.com/shared/K37K84JB8?:display_count=n&:origin=viz_share_link">Tableau Viz Link</a>
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>SuperStore Charts Visual - November 2021</h3>
-									<img src="images/guided.png" width="800" height="500"><br>
-									<p> Going a bit further into Tableau, I had followed a guided project with Coursera that provided a general idea of how to get this started, and allowed the user to complete this on their own. Originally this was meant to be a Big Number KPI board, 
-									However I did want to go a bit further than just numbers. As this was a project, I did take liberty with the colors as well. Based on the 2020 version of the Tableau Sample data set "SuperStore". It was pretty fun! :)<br><br>
-									<a href="https://public.tableau.com/views/SuperStoreKPIProject/KPIDashboard?:language=en-US&:display_count=n&:origin=viz_share_link">Tableau Viz Link</a>
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Data Viz - Tableau - November 2021</h3>
-									<img src="images/viz_cap.png" width="800" height="500"><br>
-									<p> Looking a bit further into Tableau, I have taken an additional Coursera course into using the Tableau platform. One of the assignments tasks the learner with picking a project from the Makeover Monday program, and submitting an improved visualization. <br><br>
-									To save on loading time, I've provided a screenshot above, but below you can visit the project directly. This was based on <a href="https://data.world/makeovermonday/2021w34">#MakeoverMonday 2021 Week 34</a>, on an analysis of entry level positions requiring years of experience for qualification.<br><br>
-									<a href="https://public.tableau.com/views/CourseraPeerReviewedProject/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">Tableau Viz link</a></p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Database and Dashboard - November 2021</h3>
-									<p>
-										<img src="https://raw.githubusercontent.com/Tgill1085/SMSS_PowerBI_Dashboard_Project/main/dashboard_screen.png" height="500" width="800"><br>
-										Project with SMSS, SQL, and Power BI Using SQL Server Management Studio (SSMS), created a database from a cleaned excel dataset, created SQL query to bring data into PowerBI, and then created Dashboard visualization to answer the following business requirements:
-										<br><br>
-										Build a visual data story or dashboard using Power BI to present to the stakeholders answering these questions:
-										<br><br>
-										"Is our Hotel revenue growing by year?"
-										<br>
-										We have two hotel types, so it would be good to segment revenue by hotel type
-										<br><br>
-										"Should we increase our parking lot size?"
-										<br>
-										We want to understand if there is a trend in guests with personal cars
-										<br><br>
-										"What trends can we see in the data?"
-										<br>
-										Focus on average daily rate and guests to explore seasonality
-										<br><br>
-										This project will include the dataset, SQL, and PowerBI template, and a screenshot of the final dashboard. <br>Project provided by Absent Data: https://youtu.be/S2zBHmkRbhY<br><br>
-										<a href="https://github.com/Tgill1085/SMSS_PowerBI_Dashboard_Project">SMSS_PowerBI_Dashboard_Project on Github</a> 
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Google Data Analytics Capstone Project - July 2021</h3>
-									<p>The course ends with a choice between two data sets, and asks that the student conduct a Capstone project to provide an example of what was learned in the course. I chose the Bellabeat project, which offered a dataset that was provided from Kaggle, and asked me to analyze the data collected on a competitor smart device product. <br><br>
-									I used Rstudio to analyze the fitbit data that was provided. In this project I found that the usage data was rather detailed, but did not entirely match what Bellabeat was offering, so I had kept the analysis high level and general to be able to compare the two. <br><br>
-									Through the analysis of the data, I was able to learn that the fitbit users who were the most active were also reporting longer sleep as a correlation. My final suggestion was that this could be used by the Bellabeat team to inform their target audience on how to reduce stress through more exercise, as it may lead to longer sleep, which could enhance their product offerings.</p><br>
-									<p> Here is the R analysis for the Capstone Project:</br>
-									<a href="https://rpubs.com/Tgill1085/BCP_TG"> R Analysis for BellaBeat Capstone Project </a> 
-									<br><br>
-									Here you can find the slides presentation I created for the project:<br>
-									<a href="https://docs.google.com/presentation/d/1NHgjod6jd3D767cg89Re9jNmeRJcG45eVJ_B2UI_A18/edit?usp=sharing"> Bellabeat Presentation </a><br><br>
-									And finally, here are the notes that I had used through the project to keep me on task: <br>
-									<a href="https://docs.google.com/document/d/13UPwqcOaExYfxHDbKxdvTPtb6PKS31v2Y7RtWo_C0xg/edit?usp=sharing"> Bellabeat Capstone Project Notes </a>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Kaggle - August 2021 to Current</h3>
-									<p>Kaggle held a 30 days of Machine Learning event, where I was able to proceed through their courses to learn more about Python and beginner to intermediate Machine Learning.<br><br>
-										I completed the courses, but did not participate in the final project. I did, however, use the python experience along with the documenation for the Seaborn and Matplotlib libraries to do an exploritory analysis of a sales data set that was available on Kaggle. <br>
-										The analysis can be found here:<br>
-										<a href="https://www.kaggle.com/tgill1085/sales-data-analysis/notebook"> Sales Data Analysis using Python </a><br><br>
-										The coding examples that were completed through the Python and Machine Learning Courses through Kaggle can also be found under my Kaggle Code page:<br>
-										<a href="https://www.kaggle.com/tgill1085/code"> Tgill1085 Kaggle Code Page </a>
-									
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>FreeCodeCamp and REPL - September 2021</h3>
-									<p>Following my experience with the Sales Data Analysis, I felt that It may be good to check out any other known resources regarding Data Analysis and Python. 
-									Having used FreeCodeCamp previously in learning about FrontEnd Web Development, I revisited the site and found they are offering a course in what I was looking for.<br><br>
-									While taking the course with FreeCodeCamp, the material requires that python coding exercises be submitted for record keeping and grading. They suggest REPLit for ease of use in this case, as it does not require any downloads, and can be easily shared. I had written the code for these Python exercises in my REPLit, but have also copied it over to my 
-									Github account for keeping my code in one spot.
-									<br><br>
-									Here is my REPLit page, with the Python exercises and code that were submitted to FreeCodeCamp for my Data Analysis with Python Certificate:<br>
-										<a href="https://replit.com/@TashaGill"> Tasha Gill's REPLit </a> </p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>HackerRank - September 2021 to Current</h3>
-									<p><p>HackerRank is a website much like LeetCode, that provides both instruction and confirmation of coding ability. So far, I've certified on the site that I have basic Python and SQL knowledge, and as of October 18th, have three stars under Python, and two stars under SQL.
-									<br>
-									Here's my HackerRank profile link:<br>
-										<a href="https://www.hackerrank.com/tasha_n_gill"> Tasha Gill's Hacker Rank Profile</a> </p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>FrontEnd Web Development - September 2021 to Current</h3>
-									<p>Before I entered into the Merit America Program, I concluded that it may take much longer than a few months to break into the Data Analysis role that I wanted to prepare for. 
-									Due to this, I decided to turn my efforts towards Front End Web Development. <br><br>
-									I continued using the FreeCodeCamp site for the other courses in "Responsive Web Design", and "Javascript data structures and algorithms", as well as Colt Steele's Web Developer BootCamp on Udemy to do so.<br><br>
-									These courses are still in progress, but will be on the back burner until I complete the Merit America Program. For now, this page will serve as part of what skills were learned in those courses. </p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Ludum Dare 49: Electro-Twixt - October 2021</h3>
-									<p>This was the first Game Jam I've participated in. This particular game jam challenges developers to create and complete a game within 3 days while following a theme that was voted on by the community. This started on October 1st, and ended on October 4th, and the theme for the jam was "Unstable".<br><br>
-										My partner, who introduced me to the Ludum Dare game jam, has a passion for programming and game design that has continued for decades. He participates in these jams to enhance his skills and have fun with development. <br><br>
-										Thankfully I was able to participate with him on this one, providing the menus and most of the pixel art. We completed the game barely on-time, and while we did not place very high, we did enjoy the process and the community effort along the way.
-									<br>
-										<a href="https://ldjam.com/events/ludum-dare/49/electro-twixt"> Electro-Twixt: Our Ludum Dare 49 Game Submission</a> </p>
-								</section>
-							</div>
-						</div>
-					</section>
+h4 { font-size: 1.4em; margin: 1.5em 0 0.8em 0; }
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>For any further questions, please send me an email, or message me on LinkedIn, thanks!</p>
-							<div class="split style1">
-								<section>
-									<form action="https://www.elformo.com/forms/c471962e-9cd3-4835-b11a-f21b55c5d517" method="post" accept-charset="UTF-8">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>About this form - </h3>
-											<span>This form will send a message to my email address. At this time I am using a free service from elFormo, which redirects you twice after the message is sent. Once you send the message, you will see a page detailing that it was processed from elFormo, and then another from this portfolio page confirming that it was completed.</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://twitter.com/tgill1085" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="https://github.com/Tgill1085" class="icon brands fa-github"><span class="label">GitHub</span></a></li>												
-												<li><a href="https://www.linkedin.com/in/tasha-gill" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+/* Short vertical line for every subheading */
+h3::before,
+h4::before {
+    content: '';
+    position: absolute;
+    top: 0.35em;
+    left: 0;
+    width: 4px;
+    height: 1.4em; /* fixed short length */
+    background: var(--secondary-accent);
+    border-radius: 2px;
+}
 
-			</div>
+/* Subtle hover lift for subheadings */
+h3:hover, h4:hover {
+    transform: translateX(6px);
+    transition: transform 0.3s ease;
+}
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+/* All links: button-like appearance */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    background: var(--link-bg);
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+a:hover {
+    background: var(--link-hover-bg);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-glow);
+}
 
-	</body>
+a strong, .project a {
+    font-weight: bold;
+}
+
+/* Main content wrapper – push right on desktop */
+main {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+}
+
+/* Desktop: Push main content RIGHT */
+@media (min-width: 992px) {
+    main {
+        margin-left: 260px;              /* Push everything right by sidebar width */
+    }
+    
+    header,
+    section,
+    footer {
+        width: calc(100% - 260px);       /* Fill remaining space */
+        max-width: 1100px;               /* Optional cap – adjust or remove if needed */
+        margin: 0 auto;                  /* Center within the pushed area */
+        box-sizing: border-box;
+    }
+    
+    /* Remove any old conflicting margin on sections */
+    section {
+        margin: 40px auto !important;    /* Override any previous auto */
+    }
+}
+
+/* Mobile: No push – full width */
+@media (max-width: 991px) {
+    main, header, section, footer {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    section {
+        margin: 40px auto;
+    }
+}
+
+/* Rest of the styles */
+#about {
+    border-left: 5px solid var(--accent);
+    padding-left: 24px;
+    background: rgba(96, 165, 250, 0.06); /* very subtle blue tint */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#about p {
+    margin: 1.2em 0;
+    font-size: 1.08em; /* slightly larger for readability */
+    line-height: 1.7;
+}
+
+section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 35px;
+    background: rgba(96, 165, 250, 0.06);
+    box-shadow: 0 8px 25px var(--shadow);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+ul { list-style-type: disc; padding-left: 30px; margin: 1em 0; }
+
+/* Skills grid: ensure consistent alignment */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+/* Each column is now a flex container */
+.skills-grid > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Force subheadings to same height so bullets align */
+.skills-grid h3,
+.skills-grid h4 {
+    min-height: 3.2em; /* enough for 2 lines + padding – adjust if needed */
+    display: flex;
+    align-items: flex-start; /* top-align text */
+    margin-bottom: 1em;
+}
+
+/* Optional: if you want even tighter control, use this for exact line-height matching */
+.skills-grid h3 {
+    line-height: 1.35; /* tweak this value if titles still misalign slightly */
+}
+
+.project {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 6px 15px var(--shadow);
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.project img:hover {
+    transform: scale(1.03);
+}
+
+form {
+    display: grid;
+    gap: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: #222222;
+    color: var(--text-primary);
+    font-size: 1.05em;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--accent);
+    outline: none;
+    box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
+button {
+    background: var(--accent);
+    color: #0f0f0f;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 1.15em;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover { background: var(--accent-hover); transform: translateY(-2px); }
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #0a0a0a;
+    color: var(--text-secondary);
+    margin-top: 60px;
+    font-size: 0.95em;
+}
+
+/* Certifications: clean, spaced-out list without outer boxes */
+#certifications ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* increased vertical spacing */
+    padding-left: 0;
+    margin: 1.5em 0;
+}
+
+#certifications li {
+    background: none; /* removed background */
+    padding: 0;
+    border: none; /* removed border */
+    transition: none;
+}
+
+#certifications li:hover {
+    background: none;
+    transform: none;
+    box-shadow: none;
+}
+
+#certifications a {
+    display: block;
+    color: var(--accent);
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: var(--link-bg);
+    transition: all 0.3s ease;
+}
+
+#certifications a:hover {
+    background: var(--link-hover-bg);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-glow);
+}
+
+/* Sticky Sidebar */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 260px;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+    box-shadow: 2px 0 20px rgba(0,0,0,0.5);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* hidden on mobile by default */
+}
+
+#sidebar.active {
+    transform: translateX(0);
+}
+
+/* Hamburger button (mobile only) */
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1100;
+    background: var(--accent);
+    color: #0f0f0f;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Sidebar content */
+.sidebar-content {
+    padding: 80px 20px 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-content h3 {
+    color: var(--accent);
+    margin: 0 0 30px 0;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar li {
+    margin: 10px 0;
+}
+
+#sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#sidebar a:hover,
+#sidebar a.active {
+    background: var(--link-hover-bg);
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+/* Mobile overlay */
+#sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 900;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Desktop: always visible, push main content right */
+@media (min-width: 992px) {
+    #sidebar {
+        transform: translateX(0);
+    }
+    .hamburger {
+        display: none;
+    }
+    main, header, footer {
+        margin-left: 260px;
+        transition: margin-left 0.3s;
+    }
+    #sidebar-overlay {
+        display: none;
+    }
+}
+
+/* Mobile: hide sidebar, show hamburger */
+@media (max-width: 991px) {
+    #sidebar {
+        transform: translateX(-100%);
+    }
+    #sidebar.active {
+        transform: translateX(0);
+    }
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Top "Resume/Links" button in sidebar */
+.top-nav-btn {
+    display: block;
+    width: 90%;
+    margin: 20px auto 30px;
+    padding: 14px 20px;
+    background: var(--accent);
+    color: #0f0f0f;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
+}
+
+.top-nav-btn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(96, 165, 250, 0.5);
+    color: #ffffff;
+}
+</style>
+</head>
+<body>
+<main>
+<nav id="sidebar">
+        <button class="hamburger" onclick="toggleSidebar()">☰</button>
+        <div class="sidebar-content">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#" onclick="scrollToTop(); return false;">Resume & Links</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<!-- Mobile overlay -->
+<div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<header>
+    <h1>Tasha Gill</h1>
+    <p>Data Analyst   |   Delivering Actionable Insights Through Data Analysis & Visualization</p>
+    
+    <!-- Resume button – more vertical space below it -->
+    <p style="margin: 30px 0 15px 0;">
+        <a href="https://raw.githubusercontent.com/Tgill1085/Tgill1085.github.io/main/Tasha%20Gill%20Resume%202026.pdf"
+           target="_blank"
+           download="Tasha-Gill-Resume-2026.pdf"
+           style="background: var(--accent); color: #0f0f0f; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1em; display: inline-block;">
+           View / Download Resume (PDF)
+        </a>
+    </p>
+    <p style="background: var(--link-bg); color: var(--accent); padding: 8px 175px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: .9em; display: inline-block;"> Other links: </p>
+    
+    <!-- Bottom links – more horizontal spacing, button-like -->
+    <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 20px;">
+        <a href="mailto:Tasha.N.Gill@gmail.com" 
+           style="background: var(--link-bg); color: var(--accent); padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+           Tasha.N.Gill@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/tasha-gill" target="_blank" rel="noopener noreferrer"
+           style="background: var(--link-bg); color: var(--accent); padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+           LinkedIn
+        </a>
+        <a href="https://github.com/Tgill1085" target="_blank" rel="noopener noreferrer"
+           style="background: var(--link-bg); color: var(--accent); padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+           GitHub
+        </a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Data Analyst with hands-on experience in exploratory data analysis, cleaning, visualization, and storytelling using SQL, Python, R, and BI tools like Tableau and Power BI.</p>
+    <p>My journey started in 2021 with the Google Data Analytics Professional Certificate, where I built foundational skills in data processing, analysis, and presentation. I've continued growing through certifications in SQL for Data Science, Data Analysis with Python (freeCodeCamp), and a Udacity Data Analyst Nanodegree (completed 2024). In early 2026, I actively participated in MLZoomCamp2025 to strengthen predictive modeling capabilities.</p>
+    <p>I'm passionate about using data to uncover trends, identify opportunities, and support better decision-making. Open to roles where analytical skills can contribute to meaningful outcomes.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div>
+            <h3>Analytical & Business-Relevant Skills</h3>
+            <ul>
+                <li>Exploratory Data Analysis</li>
+                <li>Data Cleaning & Wrangling</li>
+                <li>Data Visualization & Storytelling</li>
+                <li>Data-Driven Insights & Recommendations</li>
+                <li>Process & Trend Identification</li>
+                <li>Problem Solving</li>
+                <li>Communication & Stakeholder Focus</li>
+                <li>Data Ethics</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Technical Tools</h3>
+            <ul>
+                <li>SQL</li>
+                <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+                <li>R (tidyverse, dplyr)</li>
+                <li>Tableau, Power BI</li>
+                <li>Google BigQuery, Jupyter Notebooks, RStudio</li>
+                <li>Microsoft Excel (Advanced)</li>
+                <li>Project Management: Asana, Trello</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications (Links below)</h2>
+    <ul>
+        <li>
+            <a href="https://www.udacity.com/certificate/e/141b9374-f5c4-11ee-bbfe-2bc8e12468ce" target="_blank" rel="noopener noreferrer">
+                Data Analyst Nanodegree, Udacity (November 2024, Credential ID: 141b9374-f5c4-11ee-bbfe-2bc8e12468ce)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZU5PASHXS62P" target="_blank" rel="noopener noreferrer">
+                Google Data Analytics Specialization, Coursera (July 2021, Credential ID: ZU5PASHXS62P)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/YAMKW2CBWG6J" target="_blank" rel="noopener noreferrer">
+                SQL for Data Science, Coursera (August 2021, Credential ID: YAMKW2CBWG6J)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.freecodecamp.org/certification/tgill1085/data-analysis-with-python-v7" target="_blank" rel="noopener noreferrer">
+                Data Analysis with Python, freeCodeCamp (September 2021)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.kaggle.com/learn/certification/tgill1085/intro-to-machine-learning" target="_blank" rel="noopener noreferrer">
+                Intro to Machine Learning, Kaggle (August 2021)
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Get in Touch - Email Contact Form</h2>
+    <p>Feel free to reach out about data opportunities or collaborations!</p>
+    <form action="https://formspree.io/f/xpqqqezn" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<section id="projects">
+    <h2>Project Highlights</h2>
+
+    <div class="project">
+        <h3>MLZoomCamp2025: Hardware-Based Steam Games Recommender (2026)</h3>
+        <p>A machine learning-powered web app that recommends Steam games based on your PC hardware, helping users quickly determine if their computer can run specific games, without invasive scans, downloads, or extensive research across the Steam Store.</p>
+        <p>The project addresses real-world challenges like hardware pricing crises, inconsistent performance data, and time-consuming compatibility checks by combining Steam game data, hardware benchmarks, fuzzy matching, and a trained Random Forest model to predict compatibility.</p>
+        
+        <img src="https://raw.githubusercontent.com/Tgill1085/MLZoomCamp2025/main/steamhardwarerec/app-screenshot.png"
+             alt="Screenshot of the Steam Hardware Recommender Streamlit application interface"
+             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.6); margin: 15px 0;">
+        
+        <h4>Key Skills Demonstrated</h4>
+        <ul>
+            <li>Data cleaning and processing of inconsistent datasets with Pandas</li>
+            <li>Feature engineering including fuzzy matching and scoring</li>
+            <li>Machine learning modeling (Random Forest classification)</li>
+            <li>Synthetic data generation for balanced training</li>
+            <li>End-to-end ML pipeline development and deployment</li>
+            <li>Interactive web app creation with Streamlit</li>
+            <li>Model management and version-controlled deployment</li>
+            <li>Transforming complex data into user-friendly recommendations</li>
+        </ul>
+        
+        <p><strong>Live Demo:</strong> <a href="https://steamgameshardwarerec.streamlit.app" target="_blank" rel="noopener noreferrer">Try the Recommender App</a></p>
+        <p><strong>Repository:</strong> <a href="https://github.com/Tgill1085/MLZoomCamp2025/tree/main/steamhardwarerec" target="_blank" rel="noopener noreferrer">View Full Project on GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Sales Data Analysis (Exploratory Project)</h3>
+        <p>Performed EDA on sales datasets to detect trends, seasonality, and key drivers, highlighting potential areas for performance improvement.</p>
+        
+        <img src="https://raw.githubusercontent.com/Tgill1085/Tgill1085.github.io/main/images/sales_data_analysis_screenshot.png"
+             alt="Screenshot of key visualizations and insights from the Sales Data Analysis notebook"
+             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.6); margin: 15px 0;">
+        
+        <h4>Key Skills Demonstrated</h4>
+        <ul>
+            <li>Exploratory data analysis and trend detection</li>
+            <li>Data cleaning and preprocessing</li>
+            <li>Visualization of time-series and categorical insights</li>
+            <li>Identification of seasonality and performance drivers</li>
+            <li>Generating actionable business recommendations from data</li>
+        </ul>
+        
+        <p><strong>Interactive Notebook:</strong> 
+           <a href="https://www.kaggle.com/code/tgill1085/sales-data-analysis/notebook" target="_blank" rel="noopener noreferrer">View & Run on Kaggle</a> |
+           <a href="https://github.com/Tgill1085/sales_data_analysis/blob/main/sales-data-analysis%20(2).ipynb" target="_blank" rel="noopener noreferrer">View Rendered Notebook on GitHub</a>
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Medical Data Visualizer</h3>
+        <p>Visualized health-related metrics using Python libraries to reveal patterns and support data-informed analysis in health contexts.</p>
+        
+        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/catplot.png" alt="Categorical plot of medical factors by cardiovascular status">
+        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/heatmap.png" alt="Correlation heatmap of medical examination variables">
+        
+        <h4>Key Skills Demonstrated</h4>
+        <ul>
+            <li>Data visualization with Python (Matplotlib/Seaborn)</li>
+            <li>Creating categorical plots and correlation heatmaps</li>
+            <li>Pattern discovery in health-related datasets</li>
+            <li>Effective communication of complex relationships through visuals</li>
+        </ul>
+        
+        <p><a href="https://github.com/Tgill1085/Medical_Data_Visualizer" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Google Data Analytics Capstone: Bellabeat Case Study (2021)</h3>
+        <p>Analyzed Fitbit user data to explore activity, sleep, and health patterns; delivered visualizations and recommendations to support product strategy and user engagement.</p>
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+            <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vTfSyuakYdK7NJhBUj6YJxqr77nWn5BQd-s2oxC6YhUDn1VXcmec3-eI7PLNE-CnEKA5ggYbX_PONnZ/embed?start=false&loop=false&delayms=3000"
+                frameborder="0"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+            </iframe>
+        </div>
+        
+        <h4>Key Skills Demonstrated</h4>
+        <ul>
+            <li>End-to-end data analysis process</li>
+            <li>Data cleaning and preparation</li>
+            <li>Exploratory analysis and visualization (R)</li>
+            <li>Insight generation and strategic recommendations</li>
+            <li>Data storytelling through presentations</li>
+        </ul>
+        
+        <p><a href="https://rpubs.com/Tgill1085/BCP_TG" target="_blank" rel="noopener noreferrer">R Analysis</a> |
+           <a href="https://docs.google.com/presentation/d/1NHgjod6jd3D767cg89Re9jNmeRJcG45eVJ_B2UI_A18/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Full Slides (Google Drive)</a></p>
+    </div>
+</section>
+
+<footer>
+    <p> Tasha Gill | Last Updated: January 2026</p>
+</footer>
+</main>
+<script>
+function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('active');
+    document.getElementById('sidebar-overlay').classList.toggle('active');
+}
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    
+    // Highlight the "Resume & Links" button
+    document.querySelectorAll('#sidebar a').forEach(a => a.classList.remove('active'));
+    const topLink = document.querySelector('#sidebar a[href="#"]');
+    if (topLink) topLink.classList.add('active');
+    
+    // Close sidebar on mobile
+    if (window.innerWidth < 992) {
+        toggleSidebar();
+    }
+}
+
+// Smooth scrolling + active link for section links
+document.querySelectorAll('#sidebar a[href^="#"]:not([href="#"])').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+        
+        document.querySelectorAll('#sidebar a').forEach(a => a.classList.remove('active'));
+        this.classList.add('active');
+        
+        if (window.innerWidth < 992) {
+            toggleSidebar();
+        }
+    });
+});
+
+// Update active link on scroll
+window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('section');
+    let current = '';
+    
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= sectionTop - 200) {
+            current = section.getAttribute('id');
+        }
+    });
+    
+    // If near top, highlight "Resume & Links"
+    if (scrollY < 200) {
+        current = ''; // top of page
+    }
+    
+    document.querySelectorAll('#sidebar a').forEach(a => {
+        a.classList.remove('active');
+        if (current === '') {
+            if (a.getAttribute('href') === '#') a.classList.add('active');
+        } else if (a.getAttribute('href') === `#${current}`) {
+            a.classList.add('active');
+        }
+    });
+});
+</script>
+
+</body>
 </html>
