@@ -488,7 +488,7 @@ footer {
 </style>
 </head>
 <body>
-<main>
+
 <nav id="sidebar">
         <button class="hamburger" onclick="toggleSidebar()">☰</button>
         <div class="sidebar-content">
@@ -507,6 +507,8 @@ footer {
 
 <!-- Mobile overlay -->
 <div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<main>
 
 <header>
     <h1>Tasha Gill</h1>
@@ -627,18 +629,20 @@ footer {
 </section>
 
 <section id="projects">
-    <h2>Project Highlights</h2>
+    <h2>Projects</h2>
+    <p>Selected work from 2021 to 2026, highlighting machine learning, data analysis, visualization, BI dashboards, and Python/R projects.</p>
 
+    <h3>Machine Learning</h3>
     <div class="project">
-        <h3>MLZoomCamp2025: Hardware-Based Steam Games Recommender (2026)</h3>
+        <h4>MLZoomCamp2025: Hardware-Based Steam Games Recommender (2026)</h4>
         <p>A machine learning-powered web app that recommends Steam games based on your PC hardware, helping users quickly determine if their computer can run specific games, without invasive scans, downloads, or extensive research across the Steam Store.</p>
         <p>The project addresses real-world challenges like hardware pricing crises, inconsistent performance data, and time-consuming compatibility checks by combining Steam game data, hardware benchmarks, fuzzy matching, and a trained Random Forest model to predict compatibility.</p>
-        
-        <img src="https://raw.githubusercontent.com/Tgill1085/MLZoomCamp2025/main/steamhardwarerec/app-screenshot.png"
-             alt="Screenshot of the Steam Hardware Recommender Streamlit application interface"
-             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.6); margin: 15px 0;">
-        
-        <h4>Key Skills Demonstrated</h4>
+       
+        <img src="https://raw.githubusercontent.com/Tgill1085/MLZoomCamp2025/main/steamhardwarerec/app-screenshot.png" 
+             alt="Screenshot of the Steam Hardware Recommender Streamlit application interface" 
+             style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+       
+        <h5>Key Skills Demonstrated</h5>
         <ul>
             <li>Data cleaning and processing of inconsistent datasets with Pandas</li>
             <li>Feature engineering including fuzzy matching and scoring</li>
@@ -649,20 +653,110 @@ footer {
             <li>Model management and version-controlled deployment</li>
             <li>Transforming complex data into user-friendly recommendations</li>
         </ul>
-        
+       
         <p><strong>Live Demo:</strong> <a href="https://steamgameshardwarerec.streamlit.app" target="_blank" rel="noopener noreferrer">Try the Recommender App</a></p>
         <p><strong>Repository:</strong> <a href="https://github.com/Tgill1085/MLZoomCamp2025/tree/main/steamhardwarerec" target="_blank" rel="noopener noreferrer">View Full Project on GitHub</a></p>
     </div>
 
+    <h3>Data Analysis: BI Tools</h3>
+
     <div class="project">
-        <h3>FreeCodeCamp Data Analysis with Python: Sales Data Analysis (2021)</h3>
+        <h4>OnyxData #Datadna December Challenge: Billboard's Top 100 Christmas Songs 1958–2017 (December 2021)</h4>
+        <img src="images/Viz.png" alt="Onyx Christmas Songs Visualization" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Analyzed Billboard Christmas songs dataset to determine the "greatest" holiday track. Created an interactive viz with seasonal insights and fun elements (toggle to fire-side view).</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Tableau dashboard creation and interactivity</li>
+            <li>Data storytelling with seasonal/time-based trends</li>
+            <li>Creative visualization design (custom elements like fire-side toggle)</li>
+            <li>Public sharing and challenge participation</li>
+        </ul>
+        <p><a href="https://public.tableau.com/views/OnyxChristmassongsProject/Viz?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link" target="_blank">Full Viz on Tableau Public</a> | <a href="https://onyxdata.co.uk/december-2021/">Challenge Details</a></p>
+    </div>
+
+    <div class="project">
+        <h4>DataXP.AI Airbnb Market Dashboard (December 2021)</h4>
+        <img src="images/MarketEx.png" alt="Airbnb Property Market Dashboard" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Built a dashboard to help property owners/investors understand Airbnb markets: average prices, bedroom distributions, amenity proportions (pools, AC, etc.), and high-level overviews.</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Tableau dashboard design for stakeholder insights</li>
+            <li>Python preprocessing (Pandas, NumPy, DataPrep, NLTK for text/amenities)</li>
+            <li>Property attribute analysis and proportional visualizations</li>
+            <li>Business-oriented market summary creation</li>
+        </ul>
+        <p><a href="https://public.tableau.com/shared/36B39R2HB?:display_count=n&:origin=viz_share_link" target="_blank">Full Dashboard on Tableau Public</a></p>
+    </div>
+
+    <div class="project">
+        <h4>London Bus Safety Performance Dashboard (November 2021)</h4>
+        <img src="images/london.png" alt="London Bus Safety Dashboard" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Interactive Tableau dashboard with borough filters showing safety metrics and trends from London bus incident data.</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Filter-based interactive dashboards in Tableau</li>
+            <li>Spatial/location data visualization</li>
+            <li>Functional and clean design for practical use</li>
+        </ul>
+        <p><a href="https://public.tableau.com/shared/K37K84JB8?:display_count=n&:origin=viz_share_link" target="_blank">Tableau Viz</a></p>
+    </div>
+
+    <div class="project">
+        <h4>SuperStore KPI & Charts Dashboard (November 2021)</h4>
+        <img src="images/guided.png" alt="SuperStore KPI Dashboard" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Expanded guided project into a colorful KPI board with enhanced visuals beyond basic numbers, using Tableau Sample - Superstore data.</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Custom KPI dashboard development in Tableau</li>
+            <li>Creative color and layout choices for engagement</li>
+            <li>Combining metrics with supporting charts</li>
+        </ul>
+        <p><a href="https://public.tableau.com/views/SuperStoreKPIProject/KPIDashboard?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Viz</a></p>
+    </div>
+
+    <div class="project">
+        <h4>Makeover Monday 2021 Week 34: Entry-Level Job Requirements Viz (November 2021)</h4>
+        <img src="images/viz_cap.png" alt="Makeover Monday Entry-Level Jobs Viz" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Improved visualization from Makeover Monday challenge on the paradox of entry-level positions requiring years of experience.</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Tableau viz redesign and improvement</li>
+            <li>Critical analysis of existing charts</li>
+            <li>Clear communication of counterintuitive data insights</li>
+        </ul>
+        <p><a href="https://public.tableau.com/views/CourseraPeerReviewedProject/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Viz</a> | <a href="https://data.world/makeovermonday/2021w34" target="_blank">Original Challenge</a></p>
+    </div>
+
+    <div class="project">
+        <h4>Hotel Revenue & Parking Trends Dashboard (November 2021)</h4>
+        <img src="https://raw.githubusercontent.com/Tgill1085/SMSS_PowerBI_Dashboard_Project/main/dashboard_screen.png" 
+             alt="Hotel Revenue Power BI Dashboard" 
+             width="800" height="500" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <p>Created SQL database from cleaned Excel data (SSMS), queried into Power BI, and built dashboard answering revenue growth by hotel type, parking demand trends, and seasonality in ADR/guests.</p>
+        <h5>Key Skills Demonstrated</h5>
+        <ul>
+            <li>Database creation and querying in SSMS/SQL</li>
+            <li>Power BI dashboard development and data import</li>
+            <li>Business question-driven visualization (growth, trends, seasonality)</li>
+            <li>End-to-end ETL from Excel to interactive dashboard</li>
+        </ul>
+        <p><a href="https://github.com/Tgill1085/SMSS_PowerBI_Dashboard_Project" target="_blank">GitHub Repo (dataset, SQL, PBIX)</a></p>
+    </div>
+
+
+    <h3>Data Analysis: Python / R</h3>
+    <div class="project">
+        <h4>FreeCodeCamp Data Analysis with Python: Sales Data Analysis (2021)</h4>
         <p>Performed EDA on sales datasets to detect trends, seasonality, and key drivers, highlighting potential areas for performance improvement.</p>
-        
-        <img src="https://raw.githubusercontent.com/Tgill1085/Tgill1085.github.io/main/images/sales_data_analysis_screenshot.png"
-             alt="Screenshot of key visualizations and insights from the Sales Data Analysis notebook"
-             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.6); margin: 15px 0;">
-        
-        <h4>Key Skills Demonstrated</h4>
+        <img src="https://raw.githubusercontent.com/Tgill1085/Tgill1085.github.io/main/images/sales_data_analysis_screenshot.png" 
+             alt="Screenshot of key visualizations and insights from the Sales Data Analysis notebook" 
+             style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 15px 0px;">
+        <h5>Key Skills Demonstrated</h5>
         <ul>
             <li>Exploratory data analysis and trend detection</li>
             <li>Data cleaning and preprocessing</li>
@@ -670,58 +764,42 @@ footer {
             <li>Identification of seasonality and performance drivers</li>
             <li>Generating actionable business recommendations from data</li>
         </ul>
-        
-        <p><strong>Interactive Notebook:</strong> 
-           <a href="https://www.kaggle.com/code/tgill1085/sales-data-analysis/notebook" target="_blank" rel="noopener noreferrer">View & Run on Kaggle</a> |
-           <a href="https://github.com/Tgill1085/sales_data_analysis/blob/main/sales-data-analysis%20(2).ipynb" target="_blank" rel="noopener noreferrer">View Rendered Notebook on GitHub</a>
-        </p>
+        <p><strong>Interactive Notebook:</strong> <a href="https://www.kaggle.com/code/tgill1085/sales-data-analysis/notebook" target="_blank">View & Run on Kaggle</a> | <a href="https://github.com/Tgill1085/sales_data_analysis/blob/main/sales-data-analysis%20(2).ipynb" target="_blank">View Rendered Notebook on GitHub</a></p>
     </div>
 
     <div class="project">
-        <h3>Kaggle EDA with Python: Medical Data Visualizer (2021)</h3>
+        <h4>Kaggle EDA with Python: Medical Data Visualizer (2021)</h4>
         <p>Visualized health-related metrics using Python libraries to reveal patterns and support data-informed analysis in health contexts.</p>
-        
-        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/catplot.png" alt="Categorical plot of medical factors by cardiovascular status">
-        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/heatmap.png" alt="Correlation heatmap of medical examination variables">
-        
-        <h4>Key Skills Demonstrated</h4>
+        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/catplot.png" alt="Categorical plot of medical factors by cardiovascular status" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 10px 0;">
+        <img src="https://raw.githubusercontent.com/Tgill1085/Medical_Data_Visualizer/master/heatmap.png" alt="Correlation heatmap of medical examination variables" style="max-width: 100%; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px; margin: 10px 0;">
+        <h5>Key Skills Demonstrated</h5>
         <ul>
             <li>Data visualization with Python (Matplotlib/Seaborn)</li>
             <li>Creating categorical plots and correlation heatmaps</li>
             <li>Pattern discovery in health-related datasets</li>
             <li>Effective communication of complex relationships through visuals</li>
         </ul>
-        
-        <p><a href="https://github.com/Tgill1085/Medical_Data_Visualizer" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+        <p><a href="https://github.com/Tgill1085/Medical_Data_Visualizer" target="_blank">GitHub Repo</a></p>
     </div>
 
     <div class="project">
-        <h3>Google Data Analytics Capstone: Bellabeat Case Study (2021)</h3>
+        <h4>Google Data Analytics Capstone: Bellabeat Case Study (July 2021)</h4>
         <p>Analyzed Fitbit user data to explore activity, sleep, and health patterns; delivered visualizations and recommendations to support product strategy and user engagement.</p>
-        
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vTfSyuakYdK7NJhBUj6YJxqr77nWn5BQd-s2oxC6YhUDn1VXcmec3-eI7PLNE-CnEKA5ggYbX_PONnZ/embed?start=false&loop=false&delayms=3000"
-                frameborder="0"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-            </iframe>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTfSyuakYdK7NJhBUj6YJxqr77nWn5BQd-s2oxC6YhUDn1VXcmec3-eI7PLNE-CnEKA5ggYbX_PONnZ/embed?start=false&loop=false&delayms=3000" 
+                    frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
         </div>
-        
-        <h4>Key Skills Demonstrated</h4>
+        <h5>Key Skills Demonstrated</h5>
         <ul>
             <li>End-to-end data analysis process</li>
             <li>Data cleaning and preparation</li>
-            <li>Exploratory analysis and visualization (R)</li>
+            <li>Exploratory analysis and visualization (R / tidyverse / ggplot2)</li>
             <li>Insight generation and strategic recommendations</li>
             <li>Data storytelling through presentations</li>
         </ul>
-        
-        <p><a href="https://rpubs.com/Tgill1085/BCP_TG" target="_blank" rel="noopener noreferrer">R Analysis</a> |
-           <a href="https://docs.google.com/presentation/d/1NHgjod6jd3D767cg89Re9jNmeRJcG45eVJ_B2UI_A18/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Full Slides (Google Drive)</a></p>
+        <p><a href="https://rpubs.com/Tgill1085/BCP_TG" target="_blank">R Analysis</a> | <a href="https://docs.google.com/presentation/d/1NHgjod6jd3D767cg89Re9jNmeRJcG45eVJ_B2UI_A18/edit?usp=sharing" target="_blank">View Full Slides</a></p>
     </div>
+
 </section>
 
 <footer>
@@ -797,5 +875,3 @@ window.addEventListener('scroll', () => {
 
 </body>
 </html>
-
-
